@@ -1,0 +1,28 @@
+/*.liMenu{
+    display: grid;
+    align-items: center;
+    border: 2px solid transparent;
+}
+.ulMenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.menuuu{
+    display: grid; 
+    padding-top: 15px;  
+}
+.aMenu{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #777777;
+    text-decoration: none;
+    display: grid;
+    text-align: center;
+}
+.aMenu:hover{
+    color: black;
+}*/
