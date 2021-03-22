@@ -6,16 +6,20 @@ import "../common/style/base.css"
 import Header from './Header/Header'
 import Main from './Main/Main'
 import Footer from './Footer/Footer'
-import MobileMenu from './Header/Menu/GamburgMenu'
+
+import Sidebar from '../Sidebar'
+import '../App.css'
 
 const App = () => {
     return (
-        <>
-            <Header/>
-            <Main/>
-            <Footer/>
-            
-        </>
+        
+            <>
+                <Header/>
+                <Main/>
+                <Footer/>
+                <Sidebar/>
+            </>
+        
     )
 }
 
