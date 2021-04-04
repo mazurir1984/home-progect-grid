@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductList from './Products/ProductList'
+//import ProductList from './Products/ProductList'
 import lastLogo from './lastLogo.png'
 import obliqueLine from './obliqueLine.png'
 import imgSabonete from './imgSabonete.png'
@@ -31,21 +31,21 @@ const Main = () => {
                     <ul className="categories">
                         <div className="firstCategories">
                             <li className="liCategories"><a href="/" className="aCategories">ALL</a></li>
-                            <div className="divLine"><img src={obliqueLine} className="oblique"/></div>
+                            <div className="divLine"><img src={obliqueLine} className="oblique" alt=""/></div>
                             <li className="liCategories"><a href="/" className="aCategories">LOGO</a></li>
-                            <div className="divLine"><img src={obliqueLine} className="oblique"/></div>
+                            <div className="divLine"><img src={obliqueLine} className="oblique" alt=""/></div>
                             <li className="liCategories"><a href="/" className="aCategories">MOBILE APP</a></li>  
                         </div>
                         <div className="middleCategories">
-                            <div className="divLine"><img src={obliqueLine} className="oblique"/></div>
+                            <div className="divLine"><img src={obliqueLine} className="oblique" alt=""/></div>
                             <li className="liCategories"><a href="/" className="aCategories">WORDPRESS</a></li>
-                            <div className="divLine"><img src={obliqueLine} className="oblique"/></div>
+                            <div className="divLine"><img src={obliqueLine} className="oblique" alt=""/></div>
                             <li className="liCategories"><a href="/" className="aCategories">WEBDESIGN</a></li>
-                            <div className="divLine"><img src={obliqueLine} className="oblique"/></div>
+                            <div className="divLine"><img src={obliqueLine} className="oblique" alt=""/></div>
                         </div>
                         <div className="secondCategories">
                             <li className="liCategories"><a href="/" className="aCategories">UI/IX</a></li>
-                            <div className="divLine"><img src={obliqueLine} className="oblique"/></div>
+                            <div className="divLine"><img src={obliqueLine} className="oblique" alt=""/></div>
                             <li className="liCategories"><a href="/" className="aCategories">BRANDING</a></li>
                         </div>
                     </ul>
@@ -56,39 +56,39 @@ const Main = () => {
                 <div className="MainConteiner">
                         <div className="firstSpeaker">
                             <div className="sabonete">
-                                <img src={imgSabonete} className="imgSabonete"/>
+                                <img src={imgSabonete} className="imgSabonete" alt=""/>
                             </div>
                             <div className="lamp">
-                                <img src={imgLamp} className="imgLamp"/>
+                                <img src={imgLamp} className="imgLamp" alt=""/>
                             </div>
                             <div className="tableware">
-                                <img src={imgTableware} className="imgTableware"/>
+                                <img src={imgTableware} className="imgTableware" alt=""/>
                             </div>
                         </div>
                         <div className="middleSpeaker">
                             <div className="furniture">
-                                <img src={imgFurniture} className="imgFurniture"/>
+                                <img src={imgFurniture} className="imgFurniture" alt=""/>
                                 <p className="Branding">Categories: Branding Design</p>
                             </div>
                             <div className="timer">
-                                <img src={imgTimer} className="imgTimer"/>
+                                <img src={imgTimer} className="imgTimer" alt=""/>
                             </div>
                             <div className="armchairs">
-                                <img src={imgArmchairs} className="imgArmchairs"/>
+                                <img src={imgArmchairs} className="imgArmchairs" alt=""/>
                             </div>
                             <div className="clock">
-                                <img src={imgClock} className="imgClock"/>
+                                <img src={imgClock} className="imgClock" alt=""/>
                             </div>
                         </div>
                         <div className="lastSpeaker">
                             <div className="chairsAndTables">
-                                <img src={imgChairsAndTables} className="imgChairsAndTables"/>
+                                <img src={imgChairsAndTables} className="imgChairsAndTables" alt=""/>
                             </div>
                             <div className="corinne">
-                                <img src={imgCorinne} className="imgCorinne"/>
+                                <img src={imgCorinne} className="imgCorinne" alt=""/>
                             </div>
                             <div className="iconic">
-                                <img src={imgIconic} className="imgIconic"/>
+                                <img src={imgIconic} className="imgIconic" alt=""/>
                             </div>
                         </div> 
                     </div>
