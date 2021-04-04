@@ -15,25 +15,25 @@ const Footer = () => {
                 <div className="conteiner">
                     <div className="seties">
                         <div className="footerAllSeties">
-                            <a href="" className="aseties"><img className="imgFacebook" src={facebook}/></a>
+                            <a href="/" className="aseties"><img className="imgFacebook" src={facebook} alt=""/></a>
                         </div>
                         <div className="footerAllSeties">
-                            <a href="" className="aseties"><img className="imgGoogle" src={google}/></a>
+                            <a href="/" className="aseties"><img className="imgGoogle" src={google} alt=""/></a>
                         </div>
                         <div className="footerAllSeties">
-                            <a href="" className="aseties"><img className="imgTwitter" src={twitter}/></a>
+                            <a href="/" className="aseties"><img className="imgTwitter" src={twitter} alt=""/></a>
                         </div>
                         <div className="footerAllSeties">
-                            <a href="" className="aseties"><img className="imgInsta" src={insta}/></a>
+                            <a href="/" className="aseties"><img className="imgInsta" src={insta} alt=""/></a>
                         </div>
                         <div className="footerAllSeties">
-                            <a href="" className="aseties"><img className="imgDribble" src={dribble}/></a>
+                            <a href="/" className="aseties"><img className="imgDribble" src={dribble} alt=""/></a>
                         </div>
                         <div className="footerAllSeties">
-                            <a href="" className="aseties"><img className="imgPinterest" src={pinterest}/></a>
+                            <a href="/" className="aseties"><img className="imgPinterest" src={pinterest} alt=""/></a>
                         </div>
                         <div className="footerAllSeties">
-                            <a href="" className="aseties"><img className="imgInstagramm" src={instagramm}/></a>
+                            <a href="/" className="aseties"><img className="imgInstagramm" src={instagramm} alt=""/></a>
                         </div>
                     </div>
                 </div>
