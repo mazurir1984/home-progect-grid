@@ -471,7 +471,7 @@ body{
         align-items: center; 
     }
     /*-----gamburg-menu-------*/
-    .nav-mobile-menu{
+    /*.nav-mobile-menu{
         width: 15px;
         height: 15px;
         position: relative;
@@ -512,7 +512,7 @@ body{
         text-align: center;
     }
     /*active-menu*/
-    .nav-mobile-menu.active-menu span:nth-child(1){
+    /*.nav-mobile-menu.active-menu span:nth-child(1){
         top: 50%;
         transform: rotate(45deg);
     }
@@ -535,7 +535,7 @@ body{
         height: 180px;
     }
     /*------*/
-    .liMenu{
+    /*.liMenu{
         display: flex;
         align-items: center;
         border: 2px solid transparent;

@@ -7,8 +7,8 @@ import Header from './Header/Header'
 import Main from './Main/Main'
 import Footer from './Footer/Footer'
 
-import Sidebar from '../Sidebar'
-import '../App.css'
+
+
 
 const App = () => {
     return (
@@ -17,7 +17,7 @@ const App = () => {
                 <Header/>
                 <Main/>
                 <Footer/>
-                <Sidebar/>
+                
             </>
         
     )
