@@ -1,19 +1,19 @@
 import React from 'react'
-import lastLogo from './Products/lastLogo.png'
-import obliqueLine from './Products/obliqueLine.png'
-import imgSabonete from './Products/imgSabonete.png'
-import imgLamp from './Products/imgLamp.png'
-import imgTableware from './Products/imgTableware.png'
-import imgFurniture from './Products/imgFurniture.png'
-import imgTimer from './Products/imgTimer.png'
-import imgArmchairs from './Products/imgArmchairs.png'
-import imgClock from './Products/imgClock.png'
-import imgChairsAndTables from './Products/imgChairsAndTables.png'
-import imgCorinne from './Products/imgCorinne.png'
-import imgIconic from './Products/imgIconic.png'
+import lastLogo from './lastLogo.png'
+import obliqueLine from './obliqueLine.png'
+import imgSabonete from './imgSabonete.png'
+import imgLamp from './imgLamp.png'
+import imgTableware from './imgTableware.png'
+import imgFurniture from './imgFurniture.png'
+import imgTimer from './imgTimer.png'
+import imgArmchairs from './imgArmchairs.png'
+import imgClock from './imgClock.png'
+import imgChairsAndTables from './imgChairsAndTables.png'
+import imgCorinne from './imgCorinne.png'
+import imgIconic from './imgIconic.png'
 
 const ProductList = () => {
-    retturn (
+    return (
         <>
         <main className="main">
             <div className="conteinerSlider">
