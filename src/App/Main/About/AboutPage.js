@@ -5,6 +5,7 @@ const AboutPage = () => {
     return (
         <>
             <h1 className="page-title">AboutPage</h1>
+            
         </>
     )
 }

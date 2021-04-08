@@ -1,7 +1,7 @@
 import React from 'react';
 import NavState from './context/navState';
 import MainMenu from './components/MainMenu';
-import Main from './App/Main/Main';
+//import Main from './App/Main/Main';
 
 function App() {
   return (

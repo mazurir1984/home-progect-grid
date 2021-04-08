@@ -12,10 +12,12 @@ import imgChairsAndTables from './imgChairsAndTables.png'
 import imgCorinne from './imgCorinne.png'
 import imgIconic from './imgIconic.png'
 
+import {Link} from 'react-router-dom'
+
 const ProductList = () => {
     return (
         <>
-        <main className="main">
+        <div className="DivMain">
             <div className="conteinerSlider">
                 <div className="mainTitle">
                     <h1 className="title">LIAN CREATIVE AGENCY</h1>
@@ -65,7 +67,7 @@ const ProductList = () => {
                         </div>
                         <div className="middleSpeaker">
                             <div className="furniture">
-                                <img src={imgFurniture} className="imgFurniture" alt=""/>
+                                <Link to="/categories"><img src={imgFurniture} className="imgFurniture" alt=""/></Link>
                                 <p className="Branding">Categories: Branding Design</p>
                             </div>
                             <div className="timer">
@@ -100,7 +102,7 @@ const ProductList = () => {
                     <img src={lastLogo} className="lastLogo" alt=""/>
                 </div>
             </div>
-        </main>
+        </div>
         </>
     )
 }

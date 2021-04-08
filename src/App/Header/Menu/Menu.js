@@ -9,7 +9,7 @@ const Menu = () => {
                 <li className="liMenu"><Link to="/" className="aMenu">HOME</Link></li>
                 <li className="liMenu"><Link to="/about" className="aMenu">ABOUT</Link></li>
                 <li className="liMenu"><Link to="/" className="aMenu">PORTFOLIO</Link></li>
-                <li className="liMenu"><Link to="/" className="aMenu">BLOG</Link></li>
+                <li className="liMenu"><Link to="/blog" className="aMenu">BLOG</Link></li>
                 <li className="liMenu"><Link to="/" className="aMenu">CONTACT</Link></li>
             </ul>
             <div className="nav-mobile-menu">
