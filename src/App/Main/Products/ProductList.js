@@ -67,8 +67,8 @@ const ProductList = () => {
                         </div>
                         <div className="middleSpeaker">
                             <div className="furniture">
-                                <Link to="/categories"><img src={imgFurniture} className="imgFurniture" alt=""/></Link>
-                                <p className="Branding">Categories: Branding Design</p>
+                                <Link to="/categories"><img src={imgFurniture} className="imgFurniture" alt=""/>
+                                <p className="Branding">Categories: Branding Design</p></Link>
                             </div>
                             <div className="timer">
                                 <img src={imgTimer} className="imgTimer" alt=""/>

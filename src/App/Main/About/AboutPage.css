@@ -1,0 +1,940 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.conteinerAboutPage{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.conteinerSliderAboutPage{
+    background-color: #eeeeee;
+    height: 650px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas: "content img";
+    background-size: 100%;
+}
+.mainTextTitleAboutPage{
+    display: grid;
+    align-self: center;
+    padding-top: 260px;
+    padding-bottom: 260px;
+}
+.notebookTitleAboutPage{
+    height: 650px;
+    display: grid;
+    align-self: flex-end;
+    width: 600px;
+}
+.mainTitleAboutPage{
+    width: 600px;
+    height: 85px;
+    background-color: black;
+    display: grid;
+    align-self: center;
+    justify-self: center;
+}
+.titleAboutPage{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    letter-spacing: 5px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    display: grid;
+    align-self: center;
+}
+.minFreelancePortfolioAboutPage{
+    width: 720px;
+    height: 32px;
+    display: grid;
+    justify-self: center;
+    padding-top: 35px;
+    color: black;
+}
+.secondTitleAboutPage{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 7px;
+    line-height: 24px;
+    color: black;
+    text-align: center;
+    display: grid;
+    align-self: center;
+}
+/*---------------------------------------------*/
+.conteinerOurStoryAboutPage{
+    max-width: 100%;
+    margin: 0 auto;
+    width: 1140px;
+    padding-top: 76px;
+    padding-bottom: 76px;
+    display: grid;
+    grid-template-columns: 532px 558px;
+}
+.photoOurStoryAboutPage{
+    width: 532px;
+    height: 600px;
+    padding-right: 55px;
+}
+.photoOurStory{
+    width: 532px;
+    height: 600px;
+    padding-right: 55px;
+}
+.TitleOurStory{
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 7px;
+}
+.firstPOurStory{
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    padding-top: 37px;
+    padding-bottom: 37px;
+}
+.secondPOurStory{
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 34px;
+}
+.photoshopSkills{
+    padding-top: 34px;
+}
+.ProgressPhotoshop{
+    display: block;
+    height: 52px;
+}
+.Linebase{
+    display: block;
+    position: absolute;
+}
+.progressPhotoshop{
+    display: block;
+    position: relative;
+    top: 5px;
+}
+.ellipse{
+    display: block;
+    position: relative;
+    left: 480px;
+    top: -3px;
+}
+.RectangleBlack{
+    display: block;
+    position: relative;
+    bottom: 42px;
+    left: 490px;
+}
+.RectangleSmall{
+    display: block;
+    position: relative;
+    bottom: 50px;
+    left: 490px;
+}
+.procentProgress{
+    display: block;
+    position: relative;
+    bottom: 71px;
+    left: 498px;
+}
+.brandingSkills{
+    display: block;
+    height: 52px;
+}
+.ProgressBranding{
+    display: block;
+    height: 52px;
+}
+.progressBranding{
+    display: block;
+    position: relative;
+    top: 5px;
+}
+.ellipseSecond{
+    display: block;
+    position: relative;
+    left: 508px;
+    top: -3px;
+}
+.RectangleBlackSecond{
+    display: block;
+    position: relative;
+    bottom: 42px;
+    left: 512px;
+}
+.RectangleSmallSecond{
+    display: block;
+    position: relative;
+    bottom: 50px;
+    left: 512px;
+}
+.procentProgressSecond{
+    display: block;
+    position: relative;
+    bottom: 71px;
+    left: 520px;
+}
+.ProgressPhotography{
+    display: block;
+    height: 52px;
+}
+.progressPhotography{
+    display: block;
+    position: relative;
+    top: 5px;
+}
+.photographySkills{
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.ellipseThree{
+    display: block;
+    position: relative;
+    left: 270px;
+    top: -3px;
+}
+.RectangleBlackThree{
+    display: block;
+    position: relative;
+    bottom: 45px;
+    left: 275px;
+}
+.RectangleSmallThree{
+    display: block;
+    position: relative;
+    bottom: 51px;
+    left: 275px;
+}
+.procentProgressThree{
+    display: block;
+    position: relative;
+    bottom: 74px;
+    left: 283px;
+}
+.webDesignSkills{
+    padding-bottom: 20px;
+}
+.ProgressWebDesign{
+    display: block;
+    height: 52px;
+}
+.progressWebDesign{
+    display: block;
+    position: relative;
+    top: 5px;
+}
+.ellipseFour{
+    display: block;
+    position: relative;
+    left: 440px;
+    top: -3px;
+}
+.RectangleBlackFour{
+    display: block;
+    position: relative;
+    bottom: 45px;
+    left: 447px;
+}
+.RectangleSmallFour{
+    display: block;
+    position: relative;
+    bottom: 51px;
+    left: 447px;
+}
+.procentProgressFour{
+    display: block;
+    position: relative;
+    bottom: 74px;
+    left: 455px;
+}
+/*-----------------------------*/
+.conteinerAwesomeTeam{
+    width: 1140px;
+    display: grid;
+    text-align: center;
+    margin: 0 auto;
+}
+.awersomeTitle{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 65px;
+}
+.TitleAwersome{
+    display: grid;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 12px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 38px;
+}
+.TextAwesome{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    line-height: 35px;
+    color: grey;
+    font-weight: 300;
+    width: 900px;
+    display: grid;
+}
+.awesomeInformation{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.LianJoy{
+    display: grid;
+    grid-template-rows: 436px 186px;
+}
+.photoLian{
+    display: grid;
+}
+.photoDivAwesome{
+    display: block;
+    position: relative;
+    width: 358px;
+}
+.GreyBackgroundAwesome{
+    display: block;
+    position: absolute;
+    height: 440px;
+    width: 358px;
+}
+.photoLianJoy{
+    display: block;
+    position: absolute;
+    width: 264px;
+    top: 15px;
+    height: 424px;
+    right: 35px;
+}
+.informLian{
+    display: grid;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    grid-template-rows: 1fr 1fr 3fr;
+    height: 190px;
+    justify-items: flex-start;
+    justify-self: start;
+    background-color: white;
+    width: 358px;
+}
+.nameLian{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: black;
+    font-weight: 400;
+}
+.CEOLian{
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: grey;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.textLian{
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 24px;
+    color: grey;
+    font-weight: 500;
+    display: grid;
+    justify-items: flex-start;
+    width: 284px;
+    text-align: start;
+}
+.phtoAlbertThanh{
+    display: block;
+    position: absolute;
+    width: 240px;
+    top: 15px;
+    height: 426px;
+    right: 55px;
+}
+.photoJennPereira{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 5px;
+    height: 433px;
+    left: 20px;
+}
+/*---------------*/
+.lianLastLogo{
+    display: grid;
+    justify-self: center;
+    justify-items: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+@media(max-width: 767px){
+    .conteinerSliderAboutPage{
+        background-color: #eeeeee;
+        height: 250px;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        background-size: 100% 250px;
+        max-width: 767px;
+    }
+    .mainTitleAboutPage{
+        width: 180px;
+        height: 30px;
+        background-color: black;
+        display: grid;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+    }
+    .titleAboutPage{
+        font-family: 'Roboto',sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        letter-spacing: 3px;
+        line-height: 15px;
+        color: white;
+        text-align: center;
+        display: grid;
+        align-self: center;
+        width: 180px;
+    }
+    .minFreelancePortfolioAboutPage{
+        max-width: 170px;
+        width: 170px;
+        height: 30px;
+        display: grid;
+        align-self: center;
+        justify-self: center;
+        padding-top: 0px;
+    }
+    .secondTitleAboutPage{
+        font-family: 'Roboto',sans-serif;
+        font-weight: 170px;
+        font-size: 10px;
+        letter-spacing: 3px;
+        line-height: 14px;
+        color: black;
+        text-align: center;
+        display: grid;
+        align-self: center;
+        width: 170px;
+        height: 30px;
+        padding-top: 0px;
+    }
+    .mainTextTitleAboutPage{
+        display: grid;
+        align-self: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        height: 250px;
+    }
+    .notebookTitleAboutPage{
+        height: 250px;
+        display: grid;
+        align-self: flex-end;
+        width: 130px;
+    }
+
+/*------------------------------------*/
+    .conteinerOurStoryAboutPage{
+        max-width: 100%;
+        margin: 0 auto;
+        width: 290px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: block;
+    }
+    .photoOurStoryAboutPage{
+        width: 290px;
+        height: 250px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+    .photoOurStory{
+        width: 290px;
+        height: 250px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+    .TitleOurStory{
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .firstPOurStory{
+        font-size: 12px;
+        line-height: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .secondPOurStory{
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .photoshopSkills{
+        padding-top: 20px;
+    }
+    .ProgressPhotoshop{
+        display: block;
+        height: 52px;
+    }
+    .Linebase{
+        width: 290px;
+    }
+    .progressPhotoshop{
+        top: 3px;
+        width: 220px;
+    }
+    .ellipse{
+        left: 220px;
+    }
+    .RectangleBlack{
+        left: 225px;
+    }
+    .RectangleSmall{
+        left: 225px;
+    }
+    .procentProgress{
+        left: 235px;
+    }
+    .progressBranding{
+        top: 3px;
+        width: 245px;
+    }
+    .ellipseSecond{
+        left: 245px;
+    }
+    .RectangleBlackSecond{
+        left: 250px;
+    }
+    .RectangleSmallSecond{
+        left: 250px;
+    }
+    .procentProgressSecond{
+        left: 257px;
+    }
+    .progressPhotography{
+        top: 3px;
+        width: 140px;
+    }
+    .ellipseThree{
+        left: 140px;
+    }
+    .RectangleBlackThree{
+        left: 145px;
+    }
+    .RectangleSmallThree{
+        left: 145px;
+    }
+    .procentProgressThree{
+        left: 153px;
+    }
+    .progressWebDesign{
+        top: 3px;
+        width: 200px;
+    }
+    .ellipseFour{
+        left: 190px;
+        top: -3px;
+    }
+    .RectangleBlackFour{
+        left: 195px;
+    }
+    .RectangleSmallFour{
+        left: 195px;
+    }
+    .procentProgressFour{
+        left: 205px;
+    }
+/*------------------*/
+    .conteinerAwesomeTeam{
+        width: 290px;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .awersomeTitle{
+        width: 290px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 25px;
+    }
+    .TitleAwersome{
+        font-size: 20px;
+        letter-spacing: 5px;
+        line-height: 24px;
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+    .TextAwesome{
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 24px;
+        font-weight: 300;
+        display: grid;
+        width: 290px;
+    }
+    .awesomeInformation{
+        display: block;
+    }
+    .LianJoy{
+        grid-template-rows: 336px 100px;
+        margin-bottom: 30px;
+    }
+    .photoDivAwesome{
+        display: block;
+        position: relative;
+        width: 290px;
+    }
+    .GreyBackgroundAwesome{
+        display: block;
+        position: absolute;
+        height: 340px;
+        width: 290px;
+    }
+    .photoLianJoy{
+        width: 200px;
+        top: 15px;
+        height: 324px;
+        right: 35px;
+    }
+    .informLian{
+        display: grid;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        grid-template-rows: 1fr 1fr 3fr;
+        height: 80px;
+        width: 290px;
+    }
+    .nameLian{
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 24px;
+    }
+    .CEOLian{
+        font-size: 17px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .textLian{
+        font-size: 10px;
+        line-height: 14px;
+        width: 284px;
+    }
+    .phtoAlbertThanh{
+        width: 180px;
+        height: 325px;
+    }
+    .photoJennPereira{
+        top: -5px;
+        height: 345px;
+    }
+}
+
+
+
+@media(min-width: 768px) and (max-width: 992px){
+    .conteinerSliderAboutPage{
+        height: 450px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        max-width: 992px;
+    }
+    .mainTextTitleAboutPage{
+        display: grid;
+        align-self: center;
+        padding-top: 160px;
+        padding-bottom: 200px;
+        height: 450px;
+    }
+    .mainTitleAboutPage{
+        width: 400px;
+        height: 57px;
+    }
+    .titleAboutPage{
+        font-size: 32px;
+        letter-spacing: 4px;
+        line-height: 20px;
+    }
+    .minFreelancePortfolioAboutPage{
+        width: 450px;
+        height: 29px;
+    }
+    .secondTitleAboutPage{
+        font-size: 16px;
+        letter-spacing: 6px;
+        line-height: 20px;
+    }
+    .notebookTitleAboutPage{
+        height: 450px;
+        display: grid;
+        align-self: flex-end;
+        width: 350px;
+    }
+/*------------------------------*/
+    .conteinerOurStoryAboutPage{
+        width: 768px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: block;
+        align-items: center;
+    }
+    .photoOurStoryAboutPage{
+        width: 650px;
+        height: 400px;
+        padding-right: 0px;
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .photoOurStory{
+        width: 650px;
+        height: 400px;
+        padding-right: 0px;
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .TitleOurStory{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .firstPOurStory{
+        text-align: center;
+    }
+    .secondPOurStory{
+        text-align: center;
+    }
+    /*-----------------------------*/
+    .conteinerAwesomeTeam{
+        width: 768px;
+    }
+    .awersomeTitle{
+        width: 768px;
+        padding-bottom: 40px;
+    }
+    .TitleAwersome{
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .TextAwesome{
+        font-size: 17px;
+        line-height: 28px;
+        width: 768px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .awesomeInformation{
+        display: block;
+        width: 768px;
+        margin: auto;
+    }
+    .LianJoy{
+        grid-template-rows: 400px 140px;
+        margin-bottom: 30px;
+        justify-items: center;
+    }
+    .photoDivAwesome{
+        width: 500px;
+    }
+    .GreyBackgroundAwesome{
+        height: 400px;
+        width: 500px;
+    }
+    .photoLianJoy{
+        width: 230px;
+        top: 20px;
+        height: 380px;
+        left: 150px;
+    }
+    .informLian{
+        padding-top: 5px;
+        padding-bottom: 15px;
+        height: 150px;
+        width: 500px;
+        justify-self: center;
+    }
+    .nameLian{
+        font-size: 25px;
+    }
+    .CEOLian{
+        font-size: 20px;
+        padding-bottom: 5px;
+        padding-top: 0px;
+    }
+    .textLian{
+        font-size: 15px;
+        width: 500px;
+    }
+    .phtoAlbertThanh{
+        width: 220px;
+        height: 385px;
+        left: 150px;
+    }
+    .photoJennPereira{
+        top: -5px;
+        height: 405px;
+        width: 310px;
+        left: 125px;
+    }
+    /*-------------------*/
+    
+
+}
+
+@media(min-width: 993px) and (max-width: 1199px){
+    .notebookTitleAboutPage{
+        width: 420px;
+    }
+    .conteinerOurStoryAboutPage{
+        width: 993px;
+        margin: 0 auto;
+    }
+    .awesomeInformation{
+        width: 993px;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+    .LianJoy{
+        display: grid;
+        grid-template-rows: 436px 186px;
+    }
+    .photoLian{
+        display: grid;
+    }
+    .photoDivAwesome{
+        display: block;
+        position: relative;
+        width: 320px;
+    }
+    .GreyBackgroundAwesome{
+        display: block;
+        position: absolute;
+        height: 440px;
+        width: 320px;
+    }
+    .photoLianJoy{
+        display: block;
+        position: absolute;
+        width: 264px;
+        top: 15px;
+        height: 424px;
+        right: 35px;
+    }
+    .informLian{
+        display: grid;
+        padding-top: 30px;
+        padding-bottom: 25px;
+        grid-template-rows: 1fr 1fr 3fr;
+        height: 190px;
+        justify-items: flex-start;
+        justify-self: start;
+        background-color: white;
+        width: 320px;
+    }
+    .nameLian{
+        font-size: 20px;
+        font-family: "Roboto", sans-serif;
+        letter-spacing: 1px;
+        line-height: 24px;
+        color: black;
+        font-weight: 400;
+    }
+    .CEOLian{
+        font-size: 17px;
+        font-family: "Roboto", sans-serif;
+        letter-spacing: 1px;
+        line-height: 24px;
+        color: grey;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+    .textLian{
+        font-size: 13px;
+        font-family: "Roboto", sans-serif;
+        letter-spacing: 1.5px;
+        line-height: 24px;
+        color: grey;
+        font-weight: 500;
+        display: grid;
+        justify-items: flex-start;
+        width: 284px;
+        text-align: start;
+    }
+    .phtoAlbertThanh{
+        display: block;
+        position: absolute;
+        width: 240px;
+        top: 15px;
+        height: 426px;
+        right: 55px;
+    }
+    .photoJennPereira{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 5px;
+        height: 433px;
+        left: 20px;
+    }
+    .lianLastLogo{
+        display: grid;
+        justify-self: center;
+        justify-items: center;
+        padding-top: 60px;
+        padding-bottom: 40px;
+        margin-right: 0;
+    }
+    .conteinerLastLogo{
+        width: 100%;
+        padding-left: 150px;
+    }
+}
+/*-------------------------------*/
+
+
+@media(min-width: 1200px){
+    .conteinerAboutPage{
+        max-width: 1140px;
+    }
+    .conteinerSliderAboutPage{
+        background-size: 100%;
+    }
+    .notebookTitleAboutPage{
+        width: 520px;
+    }
+    
+}

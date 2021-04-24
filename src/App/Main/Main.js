@@ -6,6 +6,7 @@ import AboutPage from "./About/AboutPage"
 import BlogPage from "./Blog/BlogPage"
 import CategoryPage from "./Category/CategoryPage"
 import {Route} from 'react-router'
+import Testimonials from '../../components/Testimonials/Testimonials'
 
 
 
@@ -18,7 +19,7 @@ const Main = () => {
             <Route path="/about" component={AboutPage}/>
             <Route path="/blog" component={BlogPage}/>
             <Route path="/category" component={CategoryPage}/>
-            
+            <Route path="/" exact component={Testimonials}/>
         </main>
         
         

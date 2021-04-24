@@ -7,10 +7,16 @@ import insta from './insta.png'
 import dribble from './dribble.png'
 import pinterest from './pinterest.png'
 import instagramm from './instagramm.png'
+import lastLogo from './lastLogo.png'
 
 const Footer = () => {
     return (
         <footer className="footer">
+            <div class="conteiner">
+                <div class="lianLastLogo">
+                    <img src="lastLogo.png" class={lastLogo} alt=""/>
+                </div>
+            </div>
             <div className="footerSeties">
                 <div className="conteiner">
                     <div className="seties">
